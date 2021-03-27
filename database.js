@@ -51,6 +51,7 @@
     
             console.log("Usuario añadido");
             resetForm();
+            location.reload();
             nombre.focus();
         })
     }
@@ -60,6 +61,7 @@
         nombre.focus();
     }
 
+    //Función para borrar un elemento pasandole un Id
     function deleteUsers(id){
             db.collection('users').doc(id).delete().then(() => {
             console.log('Usuario borrado');
