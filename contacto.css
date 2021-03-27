@@ -1,0 +1,39 @@
+*{box-sizing:border-box;}
+
+form{
+	width:30em;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#333;
+	color: beige;
+}
+
+form label{
+	width:auto;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:auto;
+	padding:3px 10px;
+	border:1px solid #070707;
+	border-radius:3px;
+	background-color:#7eecec;
+	margin:8px 0;
+	display:inline-block;
+}
+
+textarea{
+	width:auto;
+	height:100px;
+	border:1px solid #0f0f0f;
+	border-radius:3px;
+	background-color:#68b4e7;			
+	margin:8px 0;
+    font-style: normal;
+	resize:none;
+	display:block;
+}
